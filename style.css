@@ -179,8 +179,13 @@ main li{
     padding: 10px 20px;
 }
 
+.container > .sect{
+    padding: 10rem 0px;
+}
 
-
+.container .middle, .container .top, .container .bottom{
+    text-align: center;
+}
 
 /* DEBUG */
 
