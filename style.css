@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* DEBUG */
+
+.debug .navi{
+    height: 70px;
+    background-color: cornflowerblue;
+}
+
+.debug .hero_img{
+    height: 380px;
+    background-color: darkcyan
+}
+
+.debug  .sect{
+    height: 400px;
+    background-color: darkturquoise;
+    margin: 15px 0px;
+}
+
+.debug footer{
+    height: 300px;
+    background-color: darkblue;
+}
+
