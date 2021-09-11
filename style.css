@@ -56,9 +56,14 @@ footer .more{
     width: 15%;
 }
 
-.closer > .logo, .closer > .register{
+.closer > .footer_logo, .closer > .register{
     float: left;
     width: 50%;
+}
+
+.closer{
+    position: relative;
+    height: 200px;
 }
 
 
@@ -234,8 +239,8 @@ main li{
     font-size: 2.5rem;
 }
 
-.bottom .mac > a{
-    background-color: #7289DA;
+.button > a{
+    background-color: #7289dade;
     color: white;
     border-radius: 30px;
     padding: 10px 20px;
@@ -245,7 +250,6 @@ main li{
 
 footer{
     margin-top: 20px;
-    height: 800px;
     background-color: #23272A;
 }
 
@@ -292,6 +296,18 @@ footer li{
 
 footer h4{
     color: #7289DA;
+}
+
+.footer_logo{
+    position: absolute;
+    top: 25%;
+    left: 0px;
+}
+
+.register a{
+    position: absolute;
+    top: 25%;
+    right: 0px;
 }
 
 /* DEBUG */
