@@ -235,8 +235,19 @@ main li{
     width: 100%;
 }
 
-.bottom > h3{
+.bottom  h3{
     font-size: 2.5rem;
+    padding-top: 40px;
+}
+
+.star{
+    width: 700px;
+    height: 110px;
+    margin: auto;
+    background-image: url(./img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
 }
 
 .button > a{
