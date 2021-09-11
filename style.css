@@ -66,6 +66,7 @@ footer .more{
 
 body{
     font-family: 'Catamaran', sans-serif;
+    color: rgb(26, 26, 26);
 }
 
 /* NAV */
@@ -181,10 +182,43 @@ main li{
 
 .container > .sect{
     padding: 10rem 0px;
+    position: relative;
 }
 
 .container .middle, .container .top, .container .bottom{
     text-align: center;
+}
+
+.img_left > img, .img_right > img{
+    width: 700px;
+}
+
+.txt_right, .txt_left{
+    width: 29%;
+}
+
+.txt_right > h2, .txt_left > h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.txt_right{
+    position: absolute;
+    top: 25%;
+    right: 50px;
+}
+
+.img_right > img{
+    position: absolute;
+    top: 25%;
+    right: 0;
+}
+
+.txt_right > p, .txt_left > p{
+    font-size: 1.4rem;
+    padding-top: 20px;
+    line-height: 1.5;
 }
 
 /* DEBUG */
