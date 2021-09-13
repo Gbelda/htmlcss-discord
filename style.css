@@ -81,6 +81,11 @@ body{
 
 .gray_bg{
     background-color: #F6F6F6;
+    position: relative;
+}
+
+.middle_gray{
+    height: 606px;
 }
 
 .wave{
@@ -235,10 +240,15 @@ main li{
     right: 50px;
 }
 
+.txt_left{
+    position: absolute;
+    top: 30%;
+    left: 50px;
+}
 
 .img_right > img{
     position: absolute;
-    top: 10%;
+    top: 20%;
     right: 0;
 }
 
