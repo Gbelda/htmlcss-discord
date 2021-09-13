@@ -167,6 +167,10 @@ a {
     right: 0px;
 }
 
+.login h2{
+    color: black;
+}
+
 /* MAIN */
 .hero_sect img{
     width: 100%;
@@ -352,3 +356,27 @@ footer h4{
     top: 25%;
     right: 0px;
 }
+
+
+/* EFFECTS*/
+
+
+.mac:hover a, .open:hover, .bottom .button:hover, .closer .register:hover a{
+    filter: drop-shadow(0 3px 3px rgb(212, 212, 212));
+    transition: 0.2s;
+}
+
+.mac:hover a{
+    color: #7289DA;
+}
+
+.open:hover{
+    cursor: pointer;
+    background-color: rgb(41, 41, 41);
+}
+
+.bottom .button:hover a{
+    background-color: #9daeecde;
+    transition: 0.2s;
+}
+
